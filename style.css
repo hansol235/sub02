@@ -1,4 +1,10 @@
 @font-face {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'GowunBatang-Regular';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
   font-weight: normal;
@@ -10,12 +16,17 @@
   font-weight: normal;
   font-style: normal;
 }
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #365d56;}
+ul{list-style: none;}
+body{background: #fff; font-size: 16px;line-height: 45px; color: #333;font-family: 'Spoqa Han Sans Neo'; position: relative;}
 
+/*헤더*/
 *{margin: 0; padding: 0;}
 a{text-decoration: none; color: #365d56;}
 ul{list-style: none;}
 body{background: #fff; font-size: 16px; 
-  font-family: 'Gowun Batang'; color: #363636;
+  font-family: 'SpoqaHanSansNeo-Regular'; position: relative;
 }
 
 /*헤더*/
@@ -32,7 +43,10 @@ header{background-color: #fff;
 
   position:absolute; 
   top:0; left:0; /*부모가 body 자식이 header*/
+  line-height: 20px;
 }
+
+
 
 .headerbg{ width:100%;
   /* margin: 0 auto;  */
